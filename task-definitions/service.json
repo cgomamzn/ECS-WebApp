@@ -1,0 +1,15 @@
+[
+    {
+        "name": "webappcv",
+        "image": "crgomez/webcv:2.0.0",
+        "cpu": 1,
+        "memory": 512,
+        "essential": true,
+        "portMappings": [
+            {
+                "containerPort": 80,
+                "hostPort": 80
+            }
+        ]
+    }
+]
