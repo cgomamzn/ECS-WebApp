@@ -1,3 +1,9 @@
+provider "aws" {
+  profile = "terraform-ecs"
+  region = "us-east-1"
+}
+
+
 resource "aws_vpc" "vpc" {
   cidr_block           = var.cidr_vpc
   enable_dns_support   = true
